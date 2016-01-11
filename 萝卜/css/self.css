@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+* {font-family: "Microsoft YaHei";}
+.wall{
+	background:url(../img/img/banner.jpg);
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	}
+.banner{
+	height:50px;
+	background:rgba(0,0,0,0.4);
+    }
+.banner h1{
+	font-size:24px;
+	letter-spacing:3px;
+	padding-left:20px;
+	line-height:50px;
+	color:#fff;
+	float:left;
+	}
+.banner ul{
+	font-style:normal;
+	float:right;
+	}
+.banner ul li{
+	color:#fff;
+	line-height:50px;
+	display:inline-block;
+	list-style:none;
+	float:right;
+	}
+.banner ul li a{
+	font-size:16px;
+	color:#fff;
+	padding-right:30px;
+	display:block;
+	text-decoration:none;
+	}
+.next{
+	height:630px;
+	background:rgba(0,0,0,0.4);
+	}
+.next .tittle1{
+	
+	color:#fff;
+	width:300px;
+	margin:0 auto;
+	text-align:center;
+    padding-top:180px;
+	}
+.next .tittle1 h1{
+	letter-spacing:15px;
+	font-size:24px;
+	}
+.next .tittle1 p{
+	letter-spacing:3px;
+	padding-top:40px;
+	}
+.next .tittle1 button{
+	font-size:20px;
+	letter-spacing:10px;
+	color:#fff;
+	background:#6CC;
+	border:none;
+	margin:20px;
+	padding:5px 26px 5px 30px;
+	}
+
+.next .tittle1 .more{
+	font-family:'FontAwesome' !important;
+	padding-top:80px;
+	}
+.next .tittle1 .more a{
+	color:#fff;
+	text-decoration:none;
+	}
+.green{
+	height:400px;
+	background:#5FD6CD;
+	}
+.green .tittle2{
+	padding-top:60px;
+	text-align:center;
+	margin:0 auto;
+	height:60px;
+	width:28%;
+	font-style:normal;
+	}
+.green .tittle2 h1{
+	letter-spacing:2px;
+	color:#fff;
+	font-size:24px;
+	padding-bottom:30px;
+	}
+.green .tittle2 p{
+	color:#fff;
+	padding-top:30px;
+	letter-spacing:2px;
+	}
+.green .tittle2 .hr{
+	width:100%;
+	height:2px;
+	background:#98B0B3;
+	}
+.green .tittle2 .dog{
+	margin-top:80px;
+	}
+.green .tittle2 span{
+	border:1px solid #DDEAEF;
+	display:inline-block;
+	width:50px;
+	height:50px;
+	background:#69C7BD;
+	margin:0 40px 0 20px;
+	transform:rotate(45deg);
+	}
+.purple .purple1{
+	height:300px;
+	background:#5E35B1;
+	}
+.purple .img1{
+	float:left;
+	height:300px;
+	width:40%
+	}
+.purple .tittle2{
+	letter-spacing:2px;
+	font-style:normal;
+	padding-top:80px;
+	padding-left:130px;
+	float:left;
+	color:#fff;
+	}
+.purple .tittle2 p{
+	padding-top:30px;
+	}
+.purple .purple2{
+	height:300px;
+	background:#5326AF;
+	}
+.purple .img2{
+	weight:40%;
+	height:300px;
+	float:right;
+	}
+.purple .tittle3{
+	font-style:normal;
+	padding-top:80px;
+	padding-right:130px;
+	float:right;
+	color:#fff;
+	letter-spacing:2px;
+	}
+.purple .tittle3 p{
+	padding-top:30px;
+	}
+.purple .purple3{
+	height:300px;
+	background:#3C1B7F;
+	}
+.purple .img3{
+	width:40%;
+	height:300px;
+	float:left;
+	}
+.purple .tittle4{
+	letter-spacing:2px;
+	font-style:normal;
+	padding-top:80px;
+	padding-left:130px;
+	float:left;
+	color:#fff;
+	}
+.purple .tittle4 p{
+	padding-top:30px;
+	}
+.blue{
+	height:700px;
+	background:#6F79C7;
+	}
+.blue .card{
+	font-style:normal;
+	letter-spacing:2px;
+	padding-top:60px;
+	margin:0 auto;
+	width:50%;
+	color:#fff;
+	text-align:center;
+	}
+.blue .card h1{
+	font-size:22px;
+	}
+.blue .card p{
+     padding-top:30px;
+	}
+.blue .card-group{
+	background:#6F79C7;
+	text-align:center;
+	color:#fff;
+	font-style:normal;
+	margin:40px auto;
+	width:50%;
+	letter-spacing:2px;
+	}
+.blue .card-group i{
+	font-family:'FontAwesome' !important;
+	color:rgba(149, 247, 244, 0.85);
+	}
+.blue .card-group h1{
+	font-size:22px;
+	margin-top:30px;
+	margin-bottom:10px;
+	}
+.blue .card-group .card1{
+	float:left;
+	width:45%;
+	height:140px;
+	background:rgba(0,0,0,0.04);
+	}
+.blue .card-group .card2{
+	float:left;
+	width:45%;
+	height:140px;
+	background:rgba(0,0,0,0.08);
+	}
+.blue .card-group .card3{
+	float:left;
+	width:45%;
+	height:140px;
+	background:rgba(0,0,0,0.12);
+	}
+.blue .card-group .card4{
+	float:left;
+	width:45%;
+	height:140px;
+	background:rgba(0,0,0,0.16);
+	}
+.blue .card-group .card5{
+	float:left;
+	width:45%;
+	height:140px;
+	background:rgba(0,0,0,0.20);
+	}
+.blue .card-group .card6{
+	float:left;
+	width:45%;
+	height:140px;
+	background:rgba(0,0,0,0.24);
+	}
+.money{
+	height:300px;
+	background:rgba(0,0,0,0.4);
+	}
+.money .money1{
+	font-style:normal;
+	color:#fff;
+	text-align:center;
+	padding-top:100px;
+	letter-spacing:2px;
+	}	
+.money .money1 h1{
+	padding-bottom:50px;
+	}
+.money .money1 button{
+	color:#fff;
+	border:1px solid #FFF;
+	background:#FD7D7D;
+	margin:10px;
+	font-size:18px;
+	padding:5px 15px 5px 15px;
+	letter-spacing:4px;
+	}
+.foot{
+	font-style:normal;
+	color:#FFF;
+	height:200px;
+	background:#666;
+	position:relative;
+	}
+.foot .tell{
+	font-style:normal;
+	width:670px;
+	padding-top:70px;
+	padding-left:550px;
+	}
+.foot .tell span{
+	padding-right:50px;
+	}
+.foot .tell span{
+	color:#999;
+	font-size:22px;
+	}
+.foot p{
+	color:#999;
+	font-size:10px;
+	position:absolute;
+	bottom:20px;
+	left:560px
+	}
